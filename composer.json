@@ -9,10 +9,8 @@
             "name": "Oleg",
             "email": "oleg@imoks.com"
         }
-    ],
-    "require": {
-        "yiisoft/yii2": "*"
-    },
+    ],    
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "cwdstudio\\mytest\\": ""
