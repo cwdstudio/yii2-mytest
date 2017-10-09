@@ -1,13 +1,30 @@
 {
     "name": "cwdstudio/yii2-mytest",
-    "description": "Description",
+    "description": "Package",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "test"
+    ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Oleg",
-            "email": "oleg@imoks.com"
+            "name": "Ivan Ivanov",
+            "email": "ivan@ukr.net",            
+            "homepage": "https://github.com/cwdstudio/yii2-mytest",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+     "minimum-stability": "stable",
+     "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "extra": {
+        "bootstrap": "cwdstudio\\mytest\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+            "cwdstudio\\mytest\\": "src"
+        }
+    }
 }
