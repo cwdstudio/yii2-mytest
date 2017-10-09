@@ -1,29 +1,21 @@
 {
-  "name": "cwdstudio/yii2-mytest",
-  "description": "Extension redactor for Yii2 Framework.",
-  "keywords": [
-    "yii2",
-    "extension",
-    "test"
-  ],
-  "type": "yii2-extension",
-  "license": "BSD-3-Clause",
-  "support": {
-    "source": "https://github.com/cwdstudio/yii2-mytest"
-  },
-  "authors": [
-    {
-      "name": "O O",
-      "email": "oleg@imoks.com"
+    "name": "cwdstudio/yii2-mytest",
+    "description": "Description",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Oleg",
+            "email": "oleg@imoks.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "cwdstudio\\mytest\\": ""
+        }
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "yii\\redactor\\": "/"
-    }
-  },
-  "minimum-stability": "stable",
-  "require": {
-    "yiisoft/yii2": "*"
-  }
 }
